@@ -26,7 +26,6 @@ export class ProductDetailComponent implements OnInit {
   }
 
   getProduct(id: number) {
-    // @ts-ignore
     this.productService.getProduct(id).subscribe({
       next: (product: Product | undefined) => (this.product = product),
       error: (err: string) => (this.errorMessage = err),

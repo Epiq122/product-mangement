@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
-import { ProductDetailComponent } from './product-detail.component';
 import { ProductsListComponent } from './products-list.component';
-import { ProductDetailGuard } from './product-detail.guard';
+import { ProductDetailComponent } from './product-detail.component';
 import { RouterModule } from '@angular/router';
+import { ProductDetailGuard } from './product-detail.guard';
 import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
